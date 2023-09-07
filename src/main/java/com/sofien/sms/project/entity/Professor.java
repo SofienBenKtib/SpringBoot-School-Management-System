@@ -17,7 +17,7 @@ public class Professor {
     @Id
     @GeneratedValue
     private int id;
-    private String fullName;
+    private String name;
     private String email;
     private String phoneNumber;
     private String mainSubject;
