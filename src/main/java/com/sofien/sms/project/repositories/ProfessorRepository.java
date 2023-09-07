@@ -4,4 +4,5 @@ import com.sofien.sms.project.entity.Professor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProfessorRepository extends JpaRepository<Professor,Integer> {
+    Professor findByName(String name);
 }
